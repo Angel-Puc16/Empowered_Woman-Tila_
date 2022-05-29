@@ -1,0 +1,88 @@
+
+.menu{
+    list-style: none;
+    padding-left: 8rem;
+    background: #092327;
+    width: 1080px;
+    position: relative;
+    z-index: 2;
+    margin: auto 2rem;
+    padding-right: 4rem;
+    margin-top: 3rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: violet;
+}
+h1{
+    z-index: 2;
+    position: relative;
+    width: 1080px;
+    text-align: center;
+    background-color: rgb(75, 0, 146);
+    color: white;
+    margin: 2rem 7rem;
+    margin-top: 4rem;
+}
+.video{
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+.form{
+    z-index: 2;
+    position: relative;
+}
+.form .btn_sub{
+    background-color: #f824ff;
+    width: 1rem 2rem;
+    padding: 1rem 2rem;
+    margin-left: 36rem;
+}
+.form .nombre{
+    background-color: violet;
+    padding: 10px 4rem;
+    width: 360px;
+    text-align: center;
+    margin: 1rem 8rem;
+    margin-left: 25rem;
+}
+.form .telefono{
+    background-color: violet;
+    padding: 10px 4rem;
+    width: 360px;
+    text-align: center;
+    margin: 1rem 8rem;
+    margin-left: 25rem;
+}
+.form .email{
+    background-color: violet;
+    padding: 10px 4rem;
+    width: 360px;
+    text-align: center;
+    margin: 1rem 8rem;
+    margin-left: 25rem;
+}
+    .form .message {
+        background-color: violet;
+        padding: 10px 4rem;
+        width: 360px;
+        text-align: center;
+        margin: 1rem 8rem;
+        margin-left: 25rem;
+    }

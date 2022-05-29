@@ -1,0 +1,73 @@
+html{
+    max-width: 1080px;
+}
+
+.video{
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+.PageName{
+    position: relative;
+    top: 30%;
+    z-index: 2;
+    margin: auto;
+    width: 720px;
+    text-align: right;
+    font-size: 40px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Autor{
+    position: relative;
+    top: 30%;
+    z-index: 2;
+    margin: auto;
+    width: 720px;
+    text-align: right;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2rem;
+}
+.menu{
+    list-style: none;
+    padding-left: 8rem;
+    background: #092327;
+    width: 1080px;
+    position: relative;
+    z-index: 2;
+    margin: auto 2rem;
+    padding-right: 4rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: violet;
+}
+.indice{
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    margin: 2rem 10rem;
+    background-color: rgb(221, 131, 221);
+}
+.indice li{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
